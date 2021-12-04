@@ -90,7 +90,7 @@ body{
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #0e2431;
+    background: rgba(255, 0, 0, 0.5);
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -151,7 +151,7 @@ body{
     top: 12px;
     left: 5rem;
     font-size: 1.5rem;
-    color: #0a0a0a;
+    color: #d84444;
 }
 .updown{
     height:5rem;
@@ -239,13 +239,6 @@ tr:nth-child(2) {
 table tr td a{
     text-decoration: none;
 }
-
-
-tr:hover:not(:first-child){
-    background-color: rgb(170, 207, 57);
-    transform: scale(1.02);
-}
-
 
 
 /*media query*/

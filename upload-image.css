@@ -75,6 +75,7 @@ html{
     z-index: 5;
     opacity: 0;
     cursor: pointer;
+    color: red;
 }
 
 .nav-container .hamburger-lines {
@@ -95,7 +96,7 @@ html{
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #0e2431;
+    background: rgba(255, 0, 0, 0.5);
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -153,7 +154,7 @@ html{
     top: 12px;
     left: 5rem;
     font-size: 1.5rem;
-    color: #0a0a0a;
+    color: #d84444;
 }
 .updown{
     height:5rem;
