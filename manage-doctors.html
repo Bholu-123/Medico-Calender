@@ -10,7 +10,7 @@
   <body>
     <nav>
       <div class="navbar">
-          <div class="container nav-container">
+          <div class="nav-container">
             <input class="checkbox" type="checkbox" name="" id="" />
             <div class="hamburger-lines">
                 <span class="line line1"></span>
@@ -22,27 +22,26 @@
             </div>
             <i class="updown fa fa-sign-out-alt"></i>
             <div class="menu-items">
-              <li><a href="Login.html">Home</a></li>
-              <li><a href="add-doctor.html">Add Doctor</a></li>
-              <li><a href="Yearly-calender.html">Yearly Calendar</a></li>
-              <li><a href="manage-doctors.html">Monthly Calendar</a></li>
-              <li><a href="manage-doctors.html">Manage Doctor</a></li>
-              <li><a href="Details.html">Details</a></li>
-           </div>
+              <li><a class="nav-item" href="index.html">Home</a></li>
+              <li><a class="nav-item" href="add-doctor.html">Add Doctor</a></li>
+              <li><a class="nav-item" href="template.html">Template</a></li>
+              <li><a class="nav-item" href="manage-doctors.html">Manage Doctor</a></li>
+              <li><a class="nav-item" href="Details.html">Details</a></li>
+            </div>
           </div>
-      </div>
+        </div>
   </nav>
-  <section class="section-mid">
-    <div class="content-danger">
-      <h1>Manage Doctor 1 out of 50 Doctor done</h1>
-      <div class="danger">34 Pending</div>
-    </div>
-    <a href="add-doctor.html" target="_blank">
-      <button class="btn btn-2 btn-sep icon-cart">+ Add Doctor</button>
-    </a>
-  </section>
 
-  <div class="section-mid2">
+  <div class="manage-doctors-section">
+    <div class="manage-doctors-header">
+        <div class="content-danger">
+          <h1 class="manage-doctor-title">Manage Doctor 1 out of 50 Doctor done</h1>
+          <p class="manage-doctor-danger">34 Pending</p>
+        </div>
+        <a href="add-doctor.html">
+          <button class="add-doctor-btn">+ Add Doctor</button>
+        </a>
+    </div>
     <form>
       <input class="input-f" type="text" id="fname" /><br /><br />
       <input class="input-f" type="text" id="lname" /><br /><br />

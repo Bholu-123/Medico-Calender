@@ -8,9 +8,11 @@
 }
 
 body {
-	background-image: url('./img/photo-1.jpg');
-    background-size: cover;
-    object-fit: cover;
+	background-image: url('./img/photo-3.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+	object-fit: cover;
+
 }
 
 .login-container {
@@ -25,19 +27,44 @@ body {
 	background-color: white;		
 	position: relative;	
 	max-height: min-content;
-	width: 360px;	
+	width: 30%;	
 	box-shadow: 0px 0px 20px black;
 }
+
+@media  only screen and (max-width: 1100px) {
+    .login-screen {		
+		width: 50%;	
+	}
+}
+
+@media  only screen and (max-width: 768px) {
+    .login-screen {		
+		width: 60%;	
+	}
+}
+
+@media  only screen and (max-width: 550px) {
+    .login-screen {		
+		width: 80%;	
+	}
+}
+
+@media  only screen and (max-width: 425px) {
+    .login-screen {		
+		width: 100%;	
+	}
+}
+
 
 .login-screen__content {
 	z-index: 1;
 	position: relative;	
 	height: 100%;
+	width: 100%;
 }
 
 .login {
-	/* width: 320px; */
-	padding: 30px;
+	padding: 30px 15px;
 	padding-top: 150x;
     display: flex;
     justify-content: center;
@@ -63,7 +90,7 @@ body {
 	padding: 10px;
 	padding-left: 24px;
 	font-weight: 700;
-	width: 90%;
+	width: 100%;
 	transition: .2s;
 }
 
@@ -75,7 +102,7 @@ body {
 }
 
 .login__submit {
-	background: rgba(25, 76, 187, 0.911);
+	background: rgba(60, 106, 206, 0.911);
 	font-size: 14px;
 	margin-top: 30px;
     margin-bottom: 20px;
@@ -108,5 +135,5 @@ body {
 .button__icon {
 	font-size: 24px;
 	margin-left: 1.5rem;
-	color: #7875B5;
+	color: white;
 }
