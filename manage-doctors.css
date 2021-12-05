@@ -10,6 +10,8 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;  
 }
   
 body {
@@ -100,6 +102,8 @@ body {
     background-color: rgba(32, 30, 30, 1);
     height: 100%;
     width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -130,7 +134,7 @@ body {
     display:flex;
     position: absolute;
     flex-direction:row;
-    top: 12px;
+    top: 7px;
     left: 5rem;
     font-size: 1.5rem;
     color: #d84444;
@@ -212,7 +216,14 @@ body {
    font-size: 1.3rem;
    border-radius: 50px;
    color: white;
+   transition: all 0.5s;
+   margin-right: 2rem;
 }
+
+.add-doctor-btn:hover{
+    background-color: rgb(197, 19, 19);
+    transform: scale(1.2);
+ }
 
 .content-danger{
     display: flex;

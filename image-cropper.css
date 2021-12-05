@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 body {
@@ -99,6 +101,8 @@ body {
     width: max-content;
     transform: translate(-150%);
     display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
     flex-direction: column;
     justify-content:center;
     align-items:center;
