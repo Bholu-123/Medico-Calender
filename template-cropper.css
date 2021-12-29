@@ -453,9 +453,9 @@ a {
   border: none;
   outline: none;
   background-color: transparent;
-  border: 2px solid #42f2f5;
-  padding: 1rem;
-  font-size: 1.2rem;
+  border: 2px solid #59baae;
+  padding: 0.5rem;
+  font-size: 1rem;
   width: 15rem;
   margin: auto;
   margin-top: 2rem;
@@ -468,7 +468,7 @@ a {
 }
 
 .upload-btn:hover {
-  background-color: #42f2f5;
+  background-color: #59baae;
   color: #fff;
   transform: scale(1.1);
 }
