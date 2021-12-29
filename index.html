@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-        <title>Login Page</title>
-    </head>
-    <body>
-        <div class="login-container">
-            <div class="login-screen">
-                <div class="login-screen__content">
-                    <form class="login">
-                        <div class="login__field">
-                            <i class="login__icon fa fa-user"></i>
-                            <input type="text" class="login__input" placeholder="Compaign Code">
-                        </div>
-                        <div class="login__field">
-                            <i class="login__icon fa fa-user"></i>
-                            <input type="text" class="login__input" placeholder="User name / Email">
-                        </div>
-                        <div class="login__field">
-                            <i class="login__icon fa fa-lock"></i>
-                            <input type="password" class="login__input" placeholder="Password">
-                        </div>
-                        <a  href="total-doctor.html"  class="button login__submit">
-                            <span class="button__text">Log In</span>
-                            <i class="button__icon fa fa-chevron-right"></i>
-                        </a>				
-                    </form>
-                </div>		
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <img class="login-back2" src="img/back2.png" />
+      <div class="login-screen">
+        <div class="logo-container">
+          <img class="top" src="img/logo (1).png" />
+          <img class="bottom" src="img/brand.png" />
         </div>
-    </body>
+        <div class="login-screen__content">
+          <form class="login">
+            <div class="login__field">
+              <i class="login__icon fa fa-chevron-right"></i>
+              <input
+                type="text"
+                class="login__input"
+                placeholder="Compaign Code"
+              />
+            </div>
+            <div class="login__field">
+              <i class="login__icon fa fa-user"></i>
+              <input
+                type="text"
+                class="login__input"
+                placeholder="User name / Email"
+              />
+            </div>
+            <div class="login__field">
+              <i class="login__icon fa fa-lock"></i>
+              <input
+                type="password"
+                class="login__input"
+                placeholder="Password"
+              />
+            </div>
+            <a href="add-doctor.html" class="button login__submit">
+              <span class="button__text">Log In</span>
+            </a>
+            <a class="forget-password" href="forgotPassword.html"
+              >Forgot Password?</a
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

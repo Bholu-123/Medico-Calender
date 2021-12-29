@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="manage-doctors.css" />
-    <title>Manage Doctor</title>
+    <link rel="stylesheet" href="template-cropper.css" />
+    <title>Crop Template</title>
   </head>
   <body>
     <nav>
@@ -75,94 +78,25 @@
         </ul>
       </div>
     </nav>
-    <div class="manageDoctors-container">
+    <div class="single-template-container">
       <img
         class="circle-image"
         src="./img/medical-technology-icon-set-health-wellness 1.png"
       />
-      <div class="doctor-content">
-        <h1 class="loader-text">25%</h1>
-
-        <div class="loader w3-light-grey w3-round-xlarge">
-          <div class="w3-container w3-aqua w3-round-large" style="width: 25%">
-            25%
-          </div>
+      <div class="single-template-content">
+        <h1>SELECT DOCTOR</h1>
+        <div class="select-doctorField">
+          <select placeholder="select Doctor" class="select-doctorInput">
+            <option value="volvo">Select Doctor</option>
+            <option value="saab">Ipsum</option>
+            <option value="opel">absc</option>
+            <option value="audi">abbb</option>
+          </select>
         </div>
-
-        <div class="number-content">
-          <span class="text-top">12 out of 60 doctors</span>
-          <br />
-          <span class="text-bottom">38 pending</span>
-        </div>
-
-        <form class="search-form">
-          <input type="text" placeholder="Search.." name="search" />
-          <button type="submit">
-            <img class="" src="./img/bx-search-alt-2.svg" />
-          </button>
-        </form>
-        <div class="doctors">
-          <div class="doctors-container">
-            <img class="doctors-image" src="./img/doctor.jpg" />
-            <span class="doctors-name">Doctor Name</span>
-            <a href="edit-doctor.html">
-              <img class="doctors-edit-image" src="./img/bx-check-square.svg" />
-            </a>
-          </div>
-
-          <div class="doctors-container">
-            <img class="doctors-image" src="./img/doctor.jpg" />
-            <span class="doctors-name">Doctor Name</span>
-            <a href="edit-doctor.html">
-              <img class="doctors-edit-image" src="./img/bx-check-square.svg" />
-            </a>
-          </div>
-
-          <div class="doctors-container">
-            <img class="doctors-image" src="./img/doctor.jpg" />
-            <span class="doctors-name">Doctor Name</span>
-            <a href="edit-doctor.html">
-              <img class="doctors-edit-image" src="./img/bx-check-square.svg" />
-            </a>
-          </div>
-
-          <div class="doctors-container">
-            <img class="doctors-image" src="./img/doctor.jpg" />
-            <span class="doctors-name">Doctor Name</span>
-            <a href="edit-doctor.html">
-              <img class="doctors-edit-image" src="./img/bx-check-square.svg" />
-            </a>
-          </div>
-
-          <div class="doctors-container">
-            <img class="doctors-image" src="./img/doctor.jpg" />
-            <span class="doctors-name">Doctor Name</span>
-            <a href="edit-doctor.html">
-              <img class="doctors-edit-image" src="./img/bx-check-square.svg" />
-            </a>
-          </div>
-
-          <div class="doctors-container">
-            <img class="doctors-image" src="./img/doctor.jpg" />
-            <span class="doctors-name">Doctor Name</span>
-            <a href="edit-doctor.html">
-              <img class="doctors-edit-image" src="./img/bx-check-square.svg" />
-            </a>
-          </div>
-
-          <div class="doctors-container">
-            <img class="doctors-image" src="./img/doctor.jpg" />
-            <span class="doctors-name">Doctor Name</span>
-            <a href="edit-doctor.html">
-              <img class="doctors-edit-image" src="./img/bx-check-square.svg" />
-            </a>
-          </div>
-        </div>
-        <div class="add-doctor__button">
-          <button class="add-doctor__button-save">
-            <a href="add-doctor.html" class="button-text"> Add Doctor</a>
-          </button>
-        </div>
+        <img src="./img/photo-2.jpg" class="single-template-img" />
+        <a href="image-cropper.html"
+          ><button class="upload-btn">Upload Image</button></a
+        >
       </div>
     </div>
   </body>

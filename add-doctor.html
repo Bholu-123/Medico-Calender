@@ -1,43 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="AddDoctor.css">
-        <title>Add Doctor</title>
-    </head>
-    <body>
-        <nav>
-            <div class="navbar">
-                <div class="container nav-container">
-                    <input class="checkbox" type="checkbox" name="" id="" />
-                    <div class="hamburger-lines">
-                        <span class="line line1"></span>
-                        <span class="line line2"></span>
-                        <span class="line line3"></span>
-                    </div>
-                    <div class="logo">
-                        <h1>CAMPAIGN</h1>
-                    </div>
-                    <i class="updown fa fa-sign-out-alt"></i>
-                    <div class="menu-items">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="add-doctor.html">Add Doctor</a></li>
-                        <li><a href="template.html">Template</a></li>
-                        <li><a href="manage-doctors.html">Manage Doctor</a></li>
-                        <li><a href="Details.html">Details</a></li>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="add-doctor__container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="AddDoctor.css" />
+    <title>Add Doctor</title>
+  </head>
+  <body>
+    <nav>
+      <nav id="navbar" class="">
+        <div class="nav-wrapper">
+          <div class="logoweb">
+            <a class="logo-container" href="#home">
+                <img class="top" src="img/logo (1).png" />
+                <img class="bottom" src="img/brand.png" />
+            </a>
+          </div>
+
+          <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="add-doctor.html">Add doctor</a></li>
+            <li><a href="manage-doctors.html">Manage doctor</a></li>
+            <li><a href="template.html">Template</a></li>
+            <li><a href="report.html">Reports</a></li>
+            <li><a href="">My account</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Menu Icon -->
+      <div class="menuIcon">
+        <span class="icon icon-bars"></span>
+        <span class="icon icon-bars overlay"></span>
+      </div>
+
+      <div class="overlay-menu">
+          <a class="logo-mobcontainer" href="#home">
+            <img class="top" src="img/logo (1).png" />
+            <img class="bottom" src="img/brand.png" />
+          </a>
+        <ul id="menu">
+            <li class="menu-item">
+                <img  class="icons" src="img/icons8-home.svg"/>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="menu-item">
+                <img class="icons" src="img/bx-plus.svg"/>
+                <a href="add-doctor.html">Add doctor</a>
+            </li>
+            <li class="menu-item">
+                <img class="icons" src="img/bx-library.svg"/>
+                <a href="manage-doctors.html">Manage doctor</a>
+            </li>
+            <li class="menu-item">
+                <img class="icons" src="img/bxs-report (1).svg"/>
+                <a href="template.html">Template</a>
+            </li>
+            <li class="menu-item">
+                <img class="icons" src="img/bx-library.svg"/>
+                <a href="">Reports</a>
+            </li>
+            <li class="menu-item">
+                <img class="icons" src="img/bxs-user.svg"/>
+                <a href="">My account</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="add-doctor__container">
+      <img class="circle-image" src="./img/medical-technology-icon-set-health-wellness 1.png"/>
             <div class="add-doctor__screen">
-                <h1 class="add-doctor__title">AddDoctor</h1>
                 <form class="add-doctor__form">
                     <div class="add-doctor__field">
                         <label for="cars" class="add-doctor__label">Brand Name<span>*</span></label>
@@ -50,14 +93,17 @@
                     </div>
                     <div class="add-doctor__field">
                         <label for="birthday" class="add-doctor__label">Doctor Name<span>*</span></label>
+                        <img  class="edit-icon" src="./img/bx-edit-alt.svg"/>
                         <input type="text" class="add-doctor__input" placeholder="Doctor Name">
                     </div>
                     <div class="add-doctor__field">
                         <label for="birthday" class="add-doctor__label">Doctors Mobile No<span>*</span></label>
+                        <img  class="edit-icon" src="./img/bx-edit-alt.svg"/>
                         <input type="number" class="add-doctor__input" placeholder="Doctors Mobile Number">
                     </div>
                     <div class="add-doctor__field">
                         <label for="birthday" class="add-doctor__label">Email Address<span>*</span></label>
+                        <img  class="edit-icon" src="./img/bx-edit-alt.svg"/>
                         <input type="email" class="add-doctor__input" placeholder="Email Address">
                     </div>
                     <div class="add-doctor__field">
@@ -76,16 +122,36 @@
 
                     <div class="add-doctor__button">
                         <button class="add-doctor__button-save">
-                            <i class="button__icon fa fa-save"></i>
                             <span class="button__text">Save</span>
-                        </button>
-                        <button class="add-doctor__button-cancel">
-                            <i class="button__icon-share fa fa-share"></i>
-                            <span class="button__text">Cancel</span>
                         </button>
                     </div>
                 </form>
             <div>
         </div>      
-    </body>
+  </body>
+  <script>
+    let menuIcon = document.querySelector(".menuIcon");
+    let nav = document.querySelector(".overlay-menu");
+
+    menuIcon.addEventListener("click", () => {
+      if (nav.style.transform != "translateX(0%)") {
+        nav.style.transform = "translateX(0%)";
+        nav.style.transition = "transform 0.2s ease-out";
+      } else {
+        nav.style.transform = "translateX(-100%)";
+        nav.style.transition = "transform 0.2s ease-out";
+      }
+    });
+
+    // Toggle Menu Icon ========================================
+    let toggleIcon = document.querySelector(".menuIcon");
+
+    toggleIcon.addEventListener("click", () => {
+      if (toggleIcon.className != "menuIcon toggle") {
+        toggleIcon.className += " toggle";
+      } else {
+        toggleIcon.className = "menuIcon";
+      }
+    });
+  </script>
 </html>

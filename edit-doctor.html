@@ -4,19 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="single-template.css" />
-    <title>Single Template</title>
+    <link rel="stylesheet" href="edit-doctor.css" />
+    <title>Edit Doctor</title>
   </head>
   <body>
     <nav>
@@ -79,52 +68,89 @@
         </ul>
       </div>
     </nav>
-    <div class="template-container">
+    <div class="container">
       <img
         class="circle-image"
         src="./img/medical-technology-icon-set-health-wellness 1.png"
       />
-      <div class="template-contents">
-        <h1>Single Poster</h1>
-        <div class="template-card">
-          <a href="">
-            <img class="template-image" src="./img/photo-2.jpg" />
-          </a>
-          <div class="template-content">
-            <img class="template-image" src="./img/doctor.jpg" />
-            <span class="template-title">Doctor</span>
+      <div class="c_container">
+        <div class="profile_container">
+          <div class="profile_pic">
+            <div class="profile_pic__img">
+              <img
+                class="profile_picImg"
+                src="./img/doctor.jpg"
+                alt="profile Pic"
+              />
+            </div>
+            <div class="profile_pic__name">Dr. Rohit Pujari</div>
+            <div class="profile_pic__degree">
+              Master of surgery(MS) in orthopedics
+            </div>
           </div>
-        </div>
-        <div class="button-group">
-          <a class="share-button">
-            <span
-              onclick="document.getElementById('id01').style.display='block'"
-              class="share-button"
-            >
-              Share
-            </span>
-          </a>
-          <a class="submit-button">
-            <span>Submit</span>
-          </a>
-        </div>
-      </div>
-    </div>
 
-    <div id="id01" class="w3-modal">
-      <div class="w3-modal-content">
-        <div class="w3-container">
-          <span
-            onclick="document.getElementById('id01').style.display='none'"
-            class="w3-button w3-display-topright"
-            >&times;</span
-          >
-          <div class="icon-container">
-            <img src="./img/bxl-whatsapp.svg" />
-            <img src="./img/bxl-whatsapp.svg" />
-            <img src="./img/bxl-whatsapp.svg" />
-            <img src="./img/bxl-whatsapp.svg" />
-            <img src="./img/bxl-whatsapp.svg" />
+          <div class="profile_info">
+            <div class="profile_info__detail">
+              <div class="profile_info__left">
+                <div class="profile_info__detail_icon">
+                  <img src="./img/bx-user (1).svg" alt="icon" />
+                </div>
+                <div class="profile_info__detail_text">Dr. Rohit Pujari</div>
+              </div>
+              <div class="profile_info__detail_edit">
+                <img src="./img/bx-edit-alt.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="profile_info__detail">
+              <div class="profile_info__left">
+                <div class="profile_info__detail_icon">
+                  <img src="./img/bxs-phone-call.svg" alt="icon" />
+                </div>
+                <div class="profile_info__detail_text">+987654321</div>
+              </div>
+              <div class="profile_info__detail_edit">
+                <img src="./img/bx-edit-alt.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="profile_info__detail">
+              <div class="profile_info__left">
+                <div class="profile_info__detail_icon">
+                  <img src="./img/bxs-location-plus.svg" alt="icon" />
+                </div>
+                <div class="profile_info__detail_text">
+                  abvchd ahsdf, anjdge(ahsdb)
+                </div>
+              </div>
+              <div class="profile_info__detail_edit">
+                <img src="./img/bx-edit-alt.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="profile_info__detail">
+              <div class="profile_info__left">
+                <div class="profile_info__detail_icon">
+                  <img src="./img/bx-envelope.svg" alt="icon" />
+                </div>
+                <div class="profile_info__detail_text">abcd@gmail.com</div>
+              </div>
+              <div class="profile_info__detail_edit">
+                <img src="./img/bx-edit-alt.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="profile_info__detail">
+              <div class="profile_info__left">
+                <div class="profile_info__detail_icon">
+                  <img src="./img/bxs-lock-alt.svg" alt="icon" />
+                </div>
+                <div class="profile_info__detail_text">..............</div>
+              </div>
+              <div class="profile_info__detail_edit">
+                <img src="./img/bx-edit-alt.svg" alt="icon" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <button class="profile_btn">Choose Template</button>
           </div>
         </div>
       </div>
