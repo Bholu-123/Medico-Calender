@@ -96,7 +96,7 @@ body {
 }
 
 #navbar li a {
-  color: #42daf5;
+  color: #59baae;
   display: block;
   font-size: 1rem;
   font-weight: bold;
@@ -124,7 +124,7 @@ body {
   width: 0%;
   height: 3px;
   bottom: -1px;
-  background: #42daf5;
+  background: #59baae;
 }
 
 #navbar li a:before {
@@ -133,12 +133,12 @@ body {
 }
 
 #navbar li a:after {
-  background: #42daf5;
+  background: #59baae;
   right: 0;
 }
 
 #navbar li a:hover:before {
-  background: #42daf5;
+  background: #59baae;
   width: 100%;
   transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
 }
@@ -320,7 +320,7 @@ body {
 }
 
 .overlay-menu {
-  background: #42f2f5;
+  background: #59baae;
   z-index: 1000;
   color: white;
   font-weight: 600;
@@ -409,12 +409,22 @@ body {
   margin-top: 75px;
 }
 
+.add-doctor-title {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  font-size: 1.5rem;
+  color: #59baae;
+  margin-top: 1.5rem;
+  border-bottom: 3px solid #59baae;
+  padding: 0.5rem 1rem;
+}
 .add-doctor__screen {
   position: relative;
   min-height: max-content;
   width: 25rem;
   margin-right: 5rem;
-  margin-top: -3rem;
+  margin-top: -1rem;
   float: right;
 }
 
@@ -486,15 +496,6 @@ body {
   right: 40px;
 }
 
-/* @media only screen and (max-width: 450px) {
-  .add-doctor__input {
-    width: 100%;
-  }
-
-  .add-doctor__select {
-    width: 100%;
-  }
-} */
 .add-doctor__input:active,
 .add-doctor__input:focus,
 .add-doctor__input:hover {
@@ -512,7 +513,7 @@ body {
 
 .add-doctor__button .add-doctor__button-save {
   background-color: transparent;
-  border: 2px solid #42daf5;
+  border: 2px solid #59baae;
   width: 20rem;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
@@ -525,21 +526,33 @@ body {
 
 .add-doctor__button .add-doctor__button-save:hover {
   color: white;
-  background-color: #42daf5;
+  background-color: #59baae;
   transform: scale(1.2);
 }
 
 @media only screen and (max-width: 500px) {
   .add-doctor__button {
     display: block;
-    width: 100%;
+    width: 100vw !important;
     margin: 0;
+    left: 0;
+    right: 0;
+    margin-right: 0px !important;
+    position: fixed;
+    top: 93%;
+  }
+
+  .last-child {
+    margin-bottom: 3rem;
   }
 
   .add-doctor__button .add-doctor__button-save {
-    width: 100% !important;
+    width: 320px !important;
+    margin: auto;
+    margin-left: 10%;
     font-size: 1.5rem;
-    background-color: #42daf5;
+    background-color: #59baae;
     color: #fff;
+    border-radius: none;
   }
 }
