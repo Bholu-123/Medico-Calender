@@ -693,3 +693,9 @@ body {
 #ic-upload-btn {
   background-color: #d84444;
 }
+
+@media (max-width: 767px) {
+  #navbar {
+    position: absolute;
+  }
+}

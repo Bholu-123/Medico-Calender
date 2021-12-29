@@ -429,6 +429,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  #navbar {
+    position: absolute;
+  }
   .add-doctor__container {
     margin: auto;
     margin-top: 10rem;

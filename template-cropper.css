@@ -493,4 +493,11 @@ a {
     margin-right: 0rem;
   }
 }
+
+@media (max-width: 767px) {
+  #navbar {
+    position: absolute;
+  }
+}
+
 /*=================================================*/

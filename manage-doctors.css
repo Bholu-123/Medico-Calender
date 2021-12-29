@@ -432,6 +432,10 @@ body {
   .doctor-content {
     margin-top: 10rem;
   }
+
+  #navbar {
+    position: absolute;
+  }
 }
 
 @media (max-width: 550px) {

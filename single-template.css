@@ -538,3 +538,9 @@ body {
   object-fit: contain;
   margin: 1rem;
 }
+
+@media (max-width: 767px) {
+  #navbar {
+    position: absolute;
+  }
+}
