@@ -558,13 +558,8 @@ body {
 @media only screen and (max-width: 500px) {
   .add-doctor__button {
     display: block;
-    width: 100vw !important;
     margin: 0;
-    left: 0;
-    right: 0;
     margin: auto;
-    position: fixed;
-    top: 92%;
   }
 
   .last-child {

@@ -541,8 +541,6 @@ body {
     left: 0;
     right: 0;
     margin-right: 0px !important;
-    position: fixed;
-    top: 93%;
   }
 
   .last-child {
